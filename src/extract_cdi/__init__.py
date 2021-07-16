@@ -36,9 +36,7 @@ class SearchAndExtractData(object):
                 raise exc
             else:
                 dado = json.loads(response.text)
-                cdi = float(dado["taxa"].replace(",", ".")) + (
-                    random() - 0.5
-                )  # random somente para variar o grafico, pode ser retirado!
+                cdi = float(dado["taxa"].replace(",", "."))
 
             # Verificando se o arquivo "taxa-cdi.csv" existe
             if os.path.exists(f"./{self.file}") is False:

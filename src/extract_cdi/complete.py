@@ -1,6 +1,6 @@
 from sys import argv
 
-from _main_ import SearchAndExtractData
+from __init__ import SearchAndExtractData
 
 file_csv = SearchAndExtractData("./taxa-cdi.csv", argv[1])
 

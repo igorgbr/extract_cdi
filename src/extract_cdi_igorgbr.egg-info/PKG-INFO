@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: extract-cdi-igorgbr
+Version: 0.0.1
+Summary: Aplicação que raspa os dados da bolsa de valores, guarda em um arquivo CSV e gera um grafico de linhas.
+Home-page: https://github.com/igorgbr/extract_cdi
+Author: Igor Giamoniano
+Author-email: igorgphotoarte@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Extrator de dados
+### App faz um request para API da bolsa e extrai taxa CDI.
+#### Guarda os dados em um arquivo *CSV e gera um gráfico a partir dos dados.
+
+---
+
+#### Pré uso:
+ Instale as bibliotecas **Pandas, Seaborn, Requests**
+
+ ```bash
+pip install pandas seaborn requests
+```
+
+#### Para executar:
+Clone o projeto e execute no terminal *(<nome_do_gráfico> sera o nome do arquivo PNG gerado)*:
+
+ ```bash
+python complete.py <nome_do_grafico> 
+```
+
+Altere para trabalhar com outras API's e dados.
+
+
+
+
+
+

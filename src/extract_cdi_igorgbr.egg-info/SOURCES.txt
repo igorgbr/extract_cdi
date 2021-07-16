@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/extract_cdi/__init__.py
+src/extract_cdi/complete.py
+src/extract_cdi_igorgbr.egg-info/PKG-INFO
+src/extract_cdi_igorgbr.egg-info/SOURCES.txt
+src/extract_cdi_igorgbr.egg-info/dependency_links.txt
+src/extract_cdi_igorgbr.egg-info/top_level.txt
