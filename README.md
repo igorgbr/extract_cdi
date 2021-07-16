@@ -15,7 +15,7 @@ pip install pandas seaborn requests
 Clone o projeto e execute no terminal *(<nome_do_gráfico> sera o nome do arquivo PNG gerado)*:
 
  ```bash
-python _main_.py <nome_do_grafico> 
+python complete.py <nome_do_grafico> 
 ```
 
 Altere para trabalhar com outras API's e dados.
